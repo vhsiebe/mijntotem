@@ -28,6 +28,9 @@ export default defineNuxtConfig({
 
   app: {
     head: {
+      htmlAttrs: {
+        lang: 'nl'
+      },
       title: 'MijnTotem - Unieke totemkledij voor scout en gidsen',
       meta: [
         { charset: 'utf-8' },

@@ -146,17 +146,6 @@ useHead({
                   Verder winkelen
                 </NuxtLink>
               </div>
-
-              <!-- Shipping Info -->
-              <div class="mt-6 p-4 bg-accent rounded-lg">
-                <div class="flex items-start gap-3">
-                  <Truck class="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                  <div class="text-sm">
-                    <p class="font-medium text-gray-90 mb-1">Gratis verzending</p>
-                    <p class="text-gray-60">Bij bestellingen vanaf €75</p>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>

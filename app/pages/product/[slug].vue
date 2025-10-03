@@ -99,11 +99,6 @@ const selectedVariation = computed(() => {
 
 // Methods
 const addToCart = async () => {
-  addToast({
-      type: 'warning',
-      title: 'Kleur vereist',
-      message: 'Selecteer eerst een kleur voordat je het product toevoegt.'
-    })
   if (!selectedVariation.value) {
     addToast({
       type: 'warning',

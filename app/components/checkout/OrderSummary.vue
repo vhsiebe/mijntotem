@@ -57,15 +57,15 @@
         SSL Beveiligd
       </div>
       <div class="flex items-center gap-2 text-xs text-gray-50">
-        <Truck class="w-4 h-4" />
-        Verzonden binnen 1-2 weken
+        <CreditCard class="w-4 h-4" />
+        Betaling via Mollie
       </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { Shield, Truck, Loader2 } from 'lucide-vue-next'
+import { Shield, CreditCard, Loader2 } from 'lucide-vue-next'
 
 defineProps<{ items: any[]; subtotal: number; shippingCost: number; paymentFee: number; vat: number; total: number; canPlace: boolean; processing: boolean }>()
 
