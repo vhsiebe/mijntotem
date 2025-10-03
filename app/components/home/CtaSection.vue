@@ -1,6 +1,6 @@
 <template>
   <section class="container mx-auto px-20 py-20">
-    <div class="rounded-3xl p-20 space-y-10 bg-cover bg-center relative" style="background-image: url('/img/cta.png')">
+    <div class="rounded-3xl p-20 space-y-10 bg-cover bg-center relative" style="background-image: url('/img/cta.webp')">
       <!-- Dark overlay for better text readability -->
       <div class="absolute inset-0 bg-black/50 rounded-3xl"></div>
       <div class="max-w-[575px] space-y-6 relative z-10">

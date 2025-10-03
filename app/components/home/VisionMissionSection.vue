@@ -22,7 +22,7 @@
       <div class="flex-1 relative h-[420px] rounded-3xl overflow-hidden">
         <div 
           class="w-full h-full bg-cover bg-center relative"
-          style="background-image: url('/img/vision.jpg')"
+          style="background-image: url('/img/vision.webp')"
         >
           <!-- Overlay for better text readability -->
           <div class="absolute inset-0 bg-black/20"></div>
@@ -48,7 +48,7 @@
       <div class="flex-1 relative h-[420px] rounded-3xl overflow-hidden">
         <div 
           class="w-full h-full bg-cover bg-center relative"
-          style="background-image: url('/img/mission.jpg')"
+          style="background-image: url('/img/mission.webp')"
         >
           <!-- Overlay for better text readability -->
           <div class="absolute inset-0 bg-black/20"></div>

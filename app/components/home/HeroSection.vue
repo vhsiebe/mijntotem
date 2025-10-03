@@ -10,7 +10,7 @@ const navigateTo = (path: string) => {
 </script>
 <template>
   <section class="px-5 py-10 md:px-20 md:py-20 xl:max-w-screen-2xl mx-auto">
-    <div class="flex flex-col items-center lg:flex-row lg:items-start lg:gap-24">
+    <div class="flex flex-col items-center lg:flex-row lg:gap-24">
       <!-- Content Section -->
       <div class="w-full lg:w-[600px] h-full flex flex-col justify-center items-center">
         <!-- Main Heading and CTA -->
