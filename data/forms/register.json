@@ -1,0 +1,32 @@
+[
+    {
+        "$formkit": "text",
+        "name": "first_name",
+        "label": "Voornaam",
+        "validation": "required"
+    },
+    {
+        "$formkit": "text",
+        "name": "last_name",
+        "label": "Achternaam",
+        "validation": "required"
+    },
+    {
+        "$formkit": "tel",
+        "name": "phone",
+        "label": "Telefoonnummer",
+        "validation": "required"
+    },
+    {
+        "$formkit": "email",
+        "name": "email",
+        "label": "Emailadres",
+        "validation": "required"
+    },
+    {
+        "$formkit": "password",
+        "name": "password",
+        "label": "Wachtwoord",
+        "validation": "required"
+    }
+]

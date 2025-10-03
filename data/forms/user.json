@@ -1,0 +1,8 @@
+[
+    {
+        "$formkit": "email",
+        "name": "email",
+        "label": "Email adres",
+        "validation": "required|email"
+    }
+]

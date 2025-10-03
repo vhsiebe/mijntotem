@@ -1,0 +1,40 @@
+{
+  "name": "mijntotem-nuxt",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "format.fix": "prettier --write .",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@medusajs/js-sdk": "^2.7.0",
+    "@medusajs/medusa-js": "^6.1.6",
+    "@mollie/api-client": "^4.3.3",
+    "@nuxt/fonts": "^0.10.2",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "nuxt": "^4.1.2",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^1.6.0",
+    "@types/node": "^22.9.3",
+    "autoprefixer": "^10.4.21",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-vue-next": "^0.461.0",
+    "postcss": "^8.5.6",
+    "prettier": "^3.6.2",
+    "radix-vue": "^1.9.8",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss": "^3.4.17",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.6.3"
+  },
+  "packageManager": "pnpm@10.14.0+sha512.ad27a79641b49c3e481a16a805baa71817a04bbe06a38d17e60e2eaee83f6a146c6a688125f5792e48dd5ba30e7da52a5cda4c3992b9ccf333f9ce223af84748"
+}

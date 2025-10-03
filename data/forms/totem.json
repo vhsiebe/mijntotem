@@ -1,0 +1,22 @@
+[
+    {
+        "$el": "div",
+        "attrs": {
+            "class": "double"
+        },
+        "children": [
+            {
+                "$formkit": "text",
+                "name": "totem",
+                "label": "Totem",
+                "validation": "required"
+            },
+            {
+                "$formkit": "text",
+                "name": "email",
+                "label": "E-mail",
+                "validation": "required"
+            }
+        ]
+    }
+]

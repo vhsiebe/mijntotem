@@ -1,0 +1,70 @@
+[
+    {
+        "$el": "div",
+        "attrs": {
+            "class": "double"
+        },
+        "children": [
+            {
+                "$formkit": "text",
+                "name": "first_name",
+                "label": "Voornaam",
+                "validation": "required"
+            },
+            {
+                "$formkit": "text",
+                "name": "last_name",
+                "label": "Achternaam",
+                "validation": "required"
+            }
+        ]
+    },
+    {
+        "$formkit": "text",
+        "name": "address_1",
+        "label": "Adres",
+        "validation": "required"
+    },
+    {
+        "$el": "div",
+        "attrs": {
+            "class": "double"
+        },
+        "children": [
+            {
+                "$formkit": "text",
+                "name": "postal_code",
+                "label": "Postcode",
+                "validation": "required"
+            },
+            {
+                "$formkit": "text",
+                "name": "city",
+                "label": "Stad",
+                "validation": "required"
+            }
+        ]
+    },
+    {
+        "$formkit": "select",
+        "name": "country_code",
+        "label": "Land",
+        "validation": "required",
+        "options": [
+            {
+                "label": "België",
+                "value": "be"
+            },
+            {
+                "label": "Nederland",
+                "value": "nl"
+            }
+        ]
+    },
+    {
+        "$formkit": "text",
+        "name": "phone",
+        "label": "Telefoon",
+        "validation": "required"
+    }
+]

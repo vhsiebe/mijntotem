@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /**
+   * MijnTotem Brand Colors
+   * Based on the Figma design colors converted to HSL
+  */
+  :root {
+    --background: 0 0% 98.04%; /* #FAFAFA */
+    --foreground: 0 0% 13.14%; /* #212121 */
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 13.14%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 13.14%;
+
+    --primary: 174 100% 23.73%; /* #00796B */
+    --primary-foreground: 0 0% 98.04%; /* #FAFAFA */
+
+    --secondary: 174 100% 23.73%;
+    --secondary-foreground: 0 0% 98.04%;
+
+    --muted: 0 0% 96.08%; /* #F5F5F5 */
+    --muted-foreground: 0 0% 45.88%; /* #757575 */
+
+    --accent: 174 37.65% 80.98%; /* #CCE4E1 */
+    --accent-foreground: 174 100% 23.73%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98.04%;
+
+    --border: 0 0% 93.33%; /* #EEEEEE */
+    --input: 0 0% 93.33%;
+    --ring: 174 100% 23.73%;
+
+    --radius: 0.5rem;
+
+    /* MijnTotem specific colors */
+    --primary-10: 174 49.32% 84.51%; /* #CCE4E1 */
+    --primary-30: 175 30.33% 63.14%; /* #80BCB5 */
+    --primary-40: 175 34.78% 48.04%; /* #55A69C */
+    --primary-50: 174 51.61% 36.86%; /* #2A8F84 */
+    --primary-60: 174 100% 23.73%; /* #00796B base */
+    --primary-70: 174 100% 19.61%; /* #006559 */
+    --primary-80: 174 100% 15.49%; /* #005147 */
+    --primary-90: 174 100% 11.37%; /* #003C35 */
+    
+    --secondary-10: 75 70.59% 96.47%; /* #FCFDF3 */
+    --secondary-30: 75 58.33% 91.76%; /* #F7F9E1 */
+    --secondary-60: 75 69.23% 86.27%; /* #F0F4C3 */
+    --secondary-80: 75 12.24% 56.47%; /* #A0A382 */
+    
+    --gray-10: 0 0% 98.04%; /* #FAFAFA */
+    --gray-20: 0 0% 96.08%; /* #F5F5F5 */
+    --gray-30: 0 0% 93.33%; /* #EEEEEE */
+    --gray-40: 0 0% 74.12%; /* #BDBDBD */
+    --gray-50: 0 0% 61.96%; /* #9E9E9E */
+    --gray-60: 0 0% 45.88%; /* #757575 */
+    --gray-80: 0 0% 25.88%; /* #424242 */
+    --gray-90: 0 0% 13.14%; /* #212121 */
+  }
+
+  .dark {
+    --background: 174 100% 11.37%; /* #003C35 */
+    --foreground: 0 0% 98.04%; /* #FAFAFA */
+
+    --card: 174 100% 11.37%;
+    --card-foreground: 0 0% 98.04%;
+
+    --popover: 174 100% 11.37%;
+    --popover-foreground: 0 0% 98.04%;
+
+    --primary: 0 0% 98.04%;
+    --primary-foreground: 174 100% 11.37%;
+
+    --secondary: 174 100% 15.49%; /* #005147 */
+    --secondary-foreground: 0 0% 98.04%;
+
+    --muted: 174 100% 15.49%;
+    --muted-foreground: 175 30.33% 63.14%;
+
+    --accent: 174 100% 15.49%;
+    --accent-foreground: 0 0% 98.04%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98.04%;
+
+    --border: 174 100% 15.49%;
+    --input: 174 100% 15.49%;
+    --ring: 174 49.32% 84.51%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+}

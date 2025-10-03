@@ -1,0 +1,25 @@
+[
+    {
+        "$formkit": "text",
+        "name": "name",
+        "label": "Naam",
+        "validation": "required"
+    },
+    {
+        "$formkit": "tel",
+        "name": "phone",
+        "label": "Telefoonnummer"
+    },
+    {
+        "$formkit": "text",
+        "name": "email",
+        "label": "Email",
+        "validation": "required|email"
+    },
+    {
+        "$formkit": "textarea",
+        "name": "message",
+        "label": "Bericht",
+        "validation": "required|length:5,1000"
+    }
+]

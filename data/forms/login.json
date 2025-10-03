@@ -1,0 +1,14 @@
+[
+    {
+        "$formkit": "email",
+        "name": "email",
+        "label": "Emailadres",
+        "validation": "required"
+    },
+    {
+        "$formkit": "password",
+        "name": "password",
+        "label": "Wachtwoord",
+        "validation": "required"
+    }
+]
