@@ -77,19 +77,19 @@
           <div class="space-y-6 md:space-y-8">
             <h3 class="text-xl md:text-2xl font-semibold text-gray-30">Sociale media</h3>
             <div class="space-y-3 md:space-y-4">
-              <a href="#" class="block text-gray-30 hover:text-white transition-colors flex items-center gap-2">
+              <a href="https://www.instagram.com/mijntotembe" class="block text-gray-30 hover:text-white transition-colors flex items-center gap-2">
                 <Instagram class="w-5 h-5 md:w-6 md:h-6 text-gray-30 flex-shrink-0" />
                 Instagram
               </a>
-              <a href="#" class="block text-gray-30 hover:text-white transition-colors flex items-center gap-2">
+              <a href="https://www.tiktok.com/@mijntotem" class="block text-gray-30 hover:text-white transition-colors flex items-center gap-2">
+                <Music2 class="w-5 h-5 md:w-6 md:h-6 text-gray-30 flex-shrink-0" />
+                TikTok
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=61558165708334" class="block text-gray-30 hover:text-white transition-colors flex items-center gap-2">
                 <Facebook class="w-5 h-5 md:w-6 md:h-6 text-gray-30 flex-shrink-0" />
                 Facebook
               </a>
-              <a href="#" class="block text-gray-30 hover:text-white transition-colors flex items-center gap-2">
-                <Twitter class="w-5 h-5 md:w-6 md:h-6 text-gray-30 flex-shrink-0" />
-                Twitter
-              </a>
-              <a href="#" class="block text-gray-30 hover:text-white transition-colors flex items-center gap-2">
+              <a href="https://www.linkedin.com/company/mijntotem" class="block text-gray-30 hover:text-white transition-colors flex items-center gap-2">
                 <Linkedin class="w-5 h-5 md:w-6 md:h-6 text-gray-30 flex-shrink-0" />
                 Linkedin
               </a>
@@ -150,8 +150,9 @@
   </footer>
 </template>
 
+
 <script setup>
-import { Phone, Mail, MapPin, Instagram, Facebook, Twitter, Linkedin, Copyright } from 'lucide-vue-next'
+import { Phone, Mail, MapPin, Instagram, Facebook, Linkedin, Music2, Copyright } from 'lucide-vue-next'
 import { ref } from 'vue'
 
 const email = ref('')

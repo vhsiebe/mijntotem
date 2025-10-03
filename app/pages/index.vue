@@ -25,8 +25,4 @@
     
     <!-- CTA Section -->
     <HomeCtaSection />
-    
-    <!-- FAQ Section -->
-    <HomeFaqSection />
-    
 </template>

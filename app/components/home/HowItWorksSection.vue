@@ -38,7 +38,7 @@
             
             <div class="w-[556px] relative h-[320px] rounded-3xl overflow-hidden">
               <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/cb9b15da01c5623fa450c27365830944fbce7942?width=1112" 
+                src="/img/book.png" 
                 alt="Zoek jouw totemdier"
                 class="w-full h-full object-cover"
               />
@@ -52,7 +52,7 @@
           <div class="flex items-center gap-14">
             <div class="w-[556px] relative h-[320px] rounded-3xl overflow-hidden">
               <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/8dba36580c66be1370aac226622ece94dfc0b43c?width=1112" 
+                src="/img/shirts.png" 
                 alt="Selecteer jouw kledij"
                 class="w-full h-full object-cover"
               />
@@ -83,11 +83,11 @@
             </div>
             <div class="w-[556px] relative h-[320px] rounded-3xl  overflow-hidden">
               <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/08c1fc45b12a5670b7a9ed0ed655883c340536ee?width=1112" 
+                src="/img/package.png" 
                 alt="Get the Right Gear"
                 class="w-full h-full object-cover"
               />
-              <div class="absolute bottom-6 right-6 bg-accent text-primary-60 w-[130px] h-16 rounded-full flex items-center justify-center text-4xl font-semibold tracking-tight">
+              <div class="absolute top-0 left-0 bg-accent text-primary-60 w-[130px] h-20 rounded-3xl flex items-center justify-center text-4xl font-semibold tracking-tight">
                 03
               </div>
             </div>
@@ -95,6 +95,16 @@
 
           <!-- Step 4 -->
           <div class="flex items-center gap-14">
+            <div class="w-[556px] relative h-[320px] rounded-3xl overflow-hidden">
+              <img 
+                src="/img/delivery.png" 
+                alt="Selecteer jouw kledij"
+                class="w-full h-full object-cover"
+              />
+              <div class="absolute top-0 right-0 bg-accent text-primary-60 w-[130px] h-20 rounded-3xl flex items-center justify-center text-4xl font-semibold tracking-tight">
+                04
+              </div>
+            </div>
             <div class="flex-1 space-y-6">
               <h3 class="text-4xl font-semibold text-gray-90 leading-tight tracking-tight">
                 Draag je totem met trots
@@ -102,12 +112,6 @@
               <p class="text-xl text-gray-60 leading-relaxed">
                 Binnen 1 à 2 weken ontvang je jouw kledingstuk. Klaar om je totem overal te tonen op kamp, op zondag of gewoon onderweg.
               </p>
-            </div>
-            
-            <div class="w-[556px] relative h-[320px] rounded-3xl overflow-hidden bg-gray-40">
-              <div class="absolute bottom-6 left-6 bg-accent text-primary-60 w-[130px] h-16 rounded-full flex items-center justify-center text-4xl font-semibold tracking-tight">
-                04
-              </div>
             </div>
           </div>
         </div>
