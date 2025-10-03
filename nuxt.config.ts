@@ -36,7 +36,7 @@ export default defineNuxtConfig({
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { 
           name: 'description', 
-          content: 'Laat je persoonlijkheid stralen met een T-shirt of sweater bedrukt met jouw totemdier. 100% ecologisch, lokaal bedrukt én vol trots gedragen door scouts in heel Benelux.' 
+          content: 'Laat je persoonlijkheid stralen met een T-shirt of sweater bedrukt met jouw totem. 100% ecologisch, lokaal bedrukt én vol trots gedragen door scouts.' 
         }
       ]
     }
