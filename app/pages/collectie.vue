@@ -1,6 +1,6 @@
 <script setup>
 import { ref, computed, watch, onMounted } from 'vue'
-import { Heart, Eye, Star, ArrowDown, Search, X, Loader2 } from 'lucide-vue-next'
+import { Heart, Eye, Star, Search, X } from 'lucide-vue-next'
 
 // Nuxt composables voor URL management
 const route = useRoute()
@@ -8,9 +8,10 @@ const router = useRouter()
 
 const limit = ref(9)
 const allProducts = ref([])
-const hasMore = ref(true)
 const loading = ref(false)
-const loadingMore = ref(false)
+const currentPage = ref(1)
+const totalPages = ref(1)
+const totalProducts = ref(0)
 
 // Reactive data - initialiseer vanuit URL parameters
 const activeCategory = ref(route.query.category || 'all')
@@ -60,21 +61,16 @@ const mappedProducts = computed(() =>
   }))
 )
 
-// Load initial products
-const loadProducts = async (reset = false) => {
-  if (reset) {
-    allProducts.value = []
-    hasMore.value = true
-  }
-
-  if (!hasMore.value || loading.value) return
+// Load products for specific page
+const loadProducts = async (page = 1, reset = false) => {
+  if (loading.value) return
 
   loading.value = true
 
   try {
     // Build query parameters
     const queryParams = {
-      offset: allProducts.value.length,
+      offset: (page - 1) * limit.value,
       limit: limit.value,
     }
 
@@ -93,63 +89,74 @@ const loadProducts = async (reset = false) => {
     })
 
     if (response.products && response.products.length > 0) {
-      allProducts.value.push(...response.products)
-      hasMore.value = response.hasMore
+      allProducts.value = response.products
+      totalProducts.value = response.total || response.products.length
+      totalPages.value = Math.ceil(totalProducts.value / limit.value)
+      currentPage.value = page
     } else {
-      hasMore.value = false
+      allProducts.value = []
+      totalProducts.value = 0
+      totalPages.value = 1
+      currentPage.value = 1
     }
   } catch (error) {
     console.error('Error loading products:', error)
-    hasMore.value = false
+    allProducts.value = []
+    totalProducts.value = 0
+    totalPages.value = 1
+    currentPage.value = 1
   } finally {
     loading.value = false
   }
 }
 
-// Load more products
-const loadMore = async () => {
-  if (loadingMore.value || !hasMore.value) return
-
-  loadingMore.value = true
-
-  try {
-    // Build query parameters
-    const queryParams = {
-      offset: allProducts.value.length,
-      limit: limit.value,
-    }
-
-    // Add search query if exists
-    if (debouncedSearchQuery.value) {
-      queryParams.q = debouncedSearchQuery.value
-    }
-
-    // Add category filter if not 'all'
-    if (activeCategory.value !== 'all') {
-      queryParams.category_id = categories.find(category => category.id === activeCategory.value).categoryId
-    }
-
-    const response = await $fetch('/api/products', {
-      query: queryParams
-    })
-
-    if (response.products && response.products.length > 0) {
-      allProducts.value.push(...response.products)
-      hasMore.value = response.hasMore
-    } else {
-      hasMore.value = false
-    }
-  } catch (error) {
-    console.error('Error loading more products:', error)
-    hasMore.value = false
-  } finally {
-    loadingMore.value = false
+// Pagination functions
+const goToPage = (page) => {
+  if (page >= 1 && page <= totalPages.value && page !== currentPage.value) {
+    loadProducts(page)
   }
+}
+
+const goToNextPage = () => {
+  if (currentPage.value < totalPages.value) {
+    goToPage(currentPage.value + 1)
+  }
+}
+
+const goToPreviousPage = () => {
+  if (currentPage.value > 1) {
+    goToPage(currentPage.value - 1)
+  }
+}
+
+// Get visible page numbers for pagination
+const getVisiblePages = () => {
+  const pages = []
+  const current = currentPage.value
+  const total = totalPages.value
+  
+  if (total <= 7) {
+    // Show all pages if 7 or fewer
+    for (let i = 1; i <= total; i++) {
+      pages.push(i)
+    }
+  } else {
+    // Show pages around current page
+    const start = Math.max(1, current - 2)
+    const end = Math.min(total, current + 2)
+    
+    for (let i = start; i <= end; i++) {
+      pages.push(i)
+    }
+  }
+  
+  return pages
 }
 
 // Watch for filter changes and reset products
 watch([debouncedSearchQuery, activeCategory], () => {
-  loadProducts(true)
+  currentPage.value = 1
+  loadProducts(1, true)
   updateURL() // Update URL wanneer filters veranderen
 }, { deep: true })
 
@@ -163,7 +170,7 @@ watch(() => route.query, (newQuery) => {
 
 // Initial load
 onMounted(() => {
-  loadProducts()
+  loadProducts(1)
 })
 
 // Methods
@@ -319,14 +326,80 @@ useHead({
       </NuxtLink>
     </div>
 
-    <!-- Load More Button -->
-    <div v-if="hasMore && mappedProducts.length > 0" class="text-center">
-      <button @click="loadMore"
-        class="bg-primary text-primary-foreground px-8 py-4 rounded-full font-medium text-lg flex items-center gap-2 mx-auto shadow-lg hover:bg-primary-70 transition-colors">
-        {{ loadingMore ? 'Laden...' : 'Meer producten laden' }}
-        <ArrowDown v-if="!loadingMore" class="w-5 h-5" />
-        <Loader2 v-if="loadingMore" class="w-5 h-5" />
+    <!-- Pagination -->
+    <div v-if="totalPages > 1 && mappedProducts.length > 0" class="flex justify-center items-center gap-2 mt-12">
+      <!-- Previous Button -->
+      <button 
+        @click="goToPreviousPage" 
+        :disabled="currentPage === 1 || loading"
+        class="px-4 py-2 rounded-full font-medium transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+        :class="currentPage === 1 || loading 
+          ? 'bg-gray-20 text-gray-50' 
+          : 'bg-white text-primary hover:bg-accent border border-gray-20'"
+      >
+        Vorige
       </button>
+
+      <!-- Page Numbers -->
+      <div class="flex gap-1">
+        <!-- First page -->
+        <button 
+          v-if="currentPage > 3" 
+          @click="goToPage(1)"
+          class="w-10 h-10 rounded-full font-medium transition-colors bg-white text-primary hover:bg-accent border border-gray-20"
+        >
+          1
+        </button>
+        
+        <!-- Ellipsis -->
+        <span v-if="currentPage > 4" class="px-2 text-gray-50">...</span>
+
+        <!-- Pages around current page -->
+        <template v-for="page in getVisiblePages()" :key="page">
+          <button 
+            @click="goToPage(page)"
+            :disabled="loading"
+            class="w-10 h-10 rounded-full font-medium transition-colors disabled:cursor-not-allowed"
+            :class="page === currentPage 
+              ? 'bg-primary text-primary-foreground' 
+              : 'bg-white text-primary hover:bg-accent border border-gray-20'"
+          >
+            {{ page }}
+          </button>
+        </template>
+
+        <!-- Ellipsis -->
+        <span v-if="currentPage < totalPages - 3" class="px-2 text-gray-50">...</span>
+
+        <!-- Last page -->
+        <button 
+          v-if="currentPage < totalPages - 2" 
+          @click="goToPage(totalPages)"
+          class="w-10 h-10 rounded-full font-medium transition-colors bg-white text-primary hover:bg-accent border border-gray-20"
+        >
+          {{ totalPages }}
+        </button>
+      </div>
+
+      <!-- Next Button -->
+      <button 
+        @click="goToNextPage" 
+        :disabled="currentPage === totalPages || loading"
+        class="px-4 py-2 rounded-full font-medium transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+        :class="currentPage === totalPages || loading 
+          ? 'bg-gray-20 text-gray-50' 
+          : 'bg-white text-primary hover:bg-accent border border-gray-20'"
+      >
+        Volgende
+      </button>
+    </div>
+
+    <!-- Page Info -->
+    <div v-if="totalPages > 1 && mappedProducts.length > 0" class="text-center mt-4">
+      <p class="text-sm text-gray-60">
+        Pagina {{ currentPage }} van {{ totalPages }} 
+        ({{ totalProducts }} {{ totalProducts === 1 ? 'product' : 'producten' }})
+      </p>
     </div>
   </section>
 
