@@ -88,10 +88,10 @@
         >
           <img src="/img/about.jpg" alt="About" class="w-full rounded-2xl md:rounded-3xl h-auto object-cover" />
         </div>
-        <button class="absolute bottom-4 md:bottom-6 right-4 md:right-6 bg-primary text-primary-foreground px-4 md:px-6 py-2 md:py-3 rounded-full font-medium text-lg md:text-xl flex items-center gap-2 shadow-lg">
+        <NuxtLink to="/over-ons" class="absolute bottom-4 md:bottom-6 right-4 md:right-6 bg-primary text-primary-foreground px-4 md:px-6 py-2 md:py-3 rounded-full font-medium text-lg md:text-xl flex items-center gap-2 shadow-lg">
           Meer over ons
           <ArrowUpRight class="w-5 h-5 md:w-6 md:h-6" />
-        </button>
+        </NuxtLink>
       </div>
     </div>
   </section>
