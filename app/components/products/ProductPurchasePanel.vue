@@ -84,6 +84,27 @@ const defaultFrontName = computed(() => {
     .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
     .join(' ')
 })
+
+// Computed property to sort sizes in the correct order
+const sortedSizes = computed(() => {
+  const sizeOrder = ['XS', 'S', 'M', 'L', 'XL', 'XXL']
+  return [...props.sizes].sort((a, b) => {
+    const indexA = sizeOrder.indexOf(a)
+    const indexB = sizeOrder.indexOf(b)
+    
+    // If both sizes are in the predefined order, sort by their position
+    if (indexA !== -1 && indexB !== -1) {
+      return indexA - indexB
+    }
+    
+    // If only one size is in the predefined order, prioritize it
+    if (indexA !== -1) return -1
+    if (indexB !== -1) return 1
+    
+    // If neither size is in the predefined order, sort alphabetically
+    return a.localeCompare(b)
+  })
+})
 </script>
 
 
@@ -118,7 +139,7 @@ const defaultFrontName = computed(() => {
         </button>
       </div>
       <div class="flex flex-wrap gap-3">
-        <button v-for="size in sizes" :key="size" @click="updateModel('selectedSize', size)" :class="['px-4 py-2 border rounded-lg font-medium transition-colors', modelValue.selectedSize === size ? 'border-primary bg-primary text-primary-foreground' : 'border-gray-30 text-gray-70 hover:border-primary']">{{ size }}</button>
+        <button v-for="size in sortedSizes" :key="size" @click="updateModel('selectedSize', size)" :class="['px-4 py-2 border rounded-lg font-medium transition-colors', modelValue.selectedSize === size ? 'border-primary bg-primary text-primary-foreground' : 'border-gray-30 text-gray-70 hover:border-primary']">{{ size }}</button>
       </div>
     </div>
 

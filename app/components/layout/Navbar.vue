@@ -113,9 +113,14 @@ const closeMobileMenu = () => {
             @click="closeMobileMenu">
             Home
           </NuxtLink>
-          <button class="px-4 py-2 text-primary-40 font-medium text-sm text-left">
+          <NuxtLink to="/collectie" class="px-4 py-2 text-primary-40 font-medium text-sm text-left"
+            @click="closeMobileMenu">
             Shop
-          </button>
+          </NuxtLink>
+          <NuxtLink to="/totems" class="px-4 py-2 text-primary-40 font-medium text-sm text-left"
+            @click="closeMobileMenu">
+            Totems
+          </NuxtLink>
           <NuxtLink to="/over-ons" class="px-4 py-2 text-primary-40 font-medium text-sm transition-colors"
             @click="closeMobileMenu">
             Over ons

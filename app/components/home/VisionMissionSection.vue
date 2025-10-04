@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto px-20 py-20 space-y-10">
+  <section class="container mx-auto py-20 space-y-10">
     <!-- Header -->
     <div class="text-center space-y-4 px-25">
       <!-- Badge -->
@@ -11,13 +11,13 @@
       </div>
       
       <!-- Title -->
-      <h2 class="text-5xl font-semibold text-gray-90 leading-tight tracking-tight max-w-[780px] mx-auto">
+      <h2 class="text-3xl md:text-4xl lg:text-5xl font-semibold text-gray-90 leading-tight tracking-tight max-w-[780px] mx-auto">
         Trots op je totem, zorg voor de natuur
       </h2>
     </div>
 
     <!-- Vision and Mission Cards -->
-    <div class="flex gap-10">
+    <div class="flex gap-10 flex-col md:flex-row">
       <!-- Vision Card -->
       <div class="flex-1 relative h-[420px] rounded-3xl overflow-hidden">
         <div 
@@ -28,15 +28,15 @@
           <div class="absolute inset-0 bg-black/20"></div>
           
           <!-- Content -->
-          <div class="relative h-full flex flex-col justify-between p-6">
+          <div class="relative h-full flex flex-col items-center md:items-start justify-center md:justify-between p-4 md:p-6">
             <!-- Badge -->
-            <div class="inline-flex items-center justify-center bg-primary-80 text-white rounded-full px-6 py-4 text-2xl font-bold w-fit">
+            <div class="inline-flex items-center justify-center bg-primary-80 text-white rounded-full px-6 py-4 text-xl md:text-2xl font-bold w-fit">
               ONZE VISIE
             </div>
             
             <!-- Description -->
-            <div class="p-6 rounded-lg">
-              <p class="text-secondary-10 text-xl font-medium leading-relaxed">
+            <div class="p-2 md:p-6 rounded-lg">
+              <p class="text-secondary-10 text-base md:text-xl font-medium leading-relaxed">
                 Scouts zijn trots op hun totem. Wij geloven dat die trots ook zichtbaar mag zijn in het dagelijks leven. Met unieke ontwerpen en kwalitatieve kledij willen we de totemtraditie mee levendig houden.
               </p>
             </div>
@@ -54,15 +54,15 @@
           <div class="absolute inset-0 bg-black/20"></div>
           
           <!-- Content -->
-          <div class="relative h-full flex flex-col justify-between p-6">
+          <div class="relative h-full flex flex-col items-center md:items-start justify-center md:justify-between p-4 md:p-6">
             <!-- Badge -->
-            <div class="inline-flex items-center justify-center bg-primary-80 text-white rounded-full px-6 py-4 text-2xl font-bold w-fit ml-auto">
+            <div class="inline-flex items-center justify-center bg-primary-80 text-white rounded-full px-6 py-4 text-xl md:text-2xl font-bold w-fit">
               ONZE MISSIE
             </div>
             
             <!-- Description -->
-            <div class="p-6">
-              <p class="text-white text-xl font-medium leading-relaxed">
+            <div class="p-2 md:p-6">
+              <p class="text-white text-base md:text-xl font-medium leading-relaxed">
                 We maken totems tastbaar in stijlvolle, duurzame en ecologische kleding. Zo kan elke scout zijn identiteit tonen, met trots voor de groep én respect voor de natuur.
               </p>
             </div>
