@@ -60,7 +60,7 @@ onMounted(async () => {
 
 // SEO
 useHead({
-  title: computed(() => totem.value ? `${totem.value.title} Totem - ${totem.value.meaning} | MijnTotem` : 'Totem Details - MijnTotem'),
+  title: computed(() => totem.value ? `${totem.value.title} Totem | MijnTotem` : 'Totem Details - MijnTotem'),
   meta: [
     { 
       name: 'description', 
