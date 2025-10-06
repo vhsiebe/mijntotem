@@ -50,7 +50,8 @@ export const useCart = () => {
 
 
   const completeCheckout = async () => {
-    order.value = await $fetch(`/api/cart/${cartId.value}/complete`, {
+    const storedCartId = localStorage.getItem("cart_id");
+    order.value = await $fetch(`/api/cart/${storedCartId}/complete`, {
       method: 'POST'
     });
     clearCart();
