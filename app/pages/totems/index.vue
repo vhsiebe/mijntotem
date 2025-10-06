@@ -36,8 +36,6 @@ const filteredTotems = computed(() => {
   // totems is an object
   let filtered = Object.values(totems)
 
-  console.log(Object.values(filtered))
-
   // Filter by category
   if (activeCategory.value !== 'all') {
     filtered = filtered.filter(totem => totem.categoryId === activeCategory.value)
@@ -47,13 +45,11 @@ const filteredTotems = computed(() => {
   if (searchQuery.value.trim()) {
     const query = searchQuery.value.toLowerCase().trim()
     filtered = filtered.filter(totem => 
-      totem.title.toLowerCase().includes(query) ||
-      totem.meaning.toLowerCase().includes(query) ||
-      totem.traits.some(trait => trait.toLowerCase().includes(query))
+      totem.title.toLowerCase().includes(query)
     )
   }
 
-  return filtered.slice(0, displayedCount.value)
+  return filtered.slice(0, displayedCount.value).sort((a, b) => a.title.localeCompare(b.title))
 })
 
 const showLoadMore = computed(() => {
@@ -64,9 +60,7 @@ const showLoadMore = computed(() => {
   if (searchQuery.value.trim()) {
     const query = searchQuery.value.toLowerCase().trim()
     totalFiltered = totalFiltered.filter(totem => 
-      totem.title.toLowerCase().includes(query) ||
-      totem.meaning.toLowerCase().includes(query) ||
-      totem.traits.some(trait => trait.toLowerCase().includes(query))
+      totem.title.toLowerCase().includes(query)
     )
   }
   return totalFiltered.length > displayedCount.value

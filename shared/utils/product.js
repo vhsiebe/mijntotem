@@ -77,6 +77,6 @@ const generateFeatures = (category) => {
 const getDescription = (handle) => {
   const [totemName, product] = handle.split('-')
   const totem = totems[totemName]
-  return totem[product]
+  return totem?.[product] || ''
 }
   
