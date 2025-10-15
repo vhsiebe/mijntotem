@@ -1,15 +1,15 @@
-totem;color;file;black/white;color;Naam;Maat
-Filantropisch Damhert;./colors/forest.png;./damhert/damhert-wit.afpub;./colors/white.png;forest;Tristan;L
-Blijmoedige Streepmuis;./colors/navy.png;./streepmuis/streepmuis-wit.afpub;./colors/white.png;navy;Sien;S
-Aurorawitte Stoutmoedige Pumba;./colors/black.png;./pumba/pumba-wit.afpub;./colors/white.png;Black;Olivia;M
-Amicale Golden Retriever;./colors/forest.png;./retriever/retriever-wit.afpub;./colors/white.png;forest;Nele;XL
-Betrouwbare Narwal;./colors/forest.png;./narwal/narwal-wit.afpub;./colors/white.png;forest;Maaike;M
-Kogelvis;./colors/forest.png;./kogelvis/kogelvis-wit.afpub;./colors/white.png;forest;Jennifer;M
-Vlijtig Konijn;./colors/forest.png;./konijn/konijn-wit.afpub;./colors/white.png;forest;Hilde;XXL
-Fervente Steppelemming;./colors/forest.png;./steppelemming/steppelemming-wit.afpub;./colors/white.png;forest;Hanne H.;L
-Vredelievende Chimpansee;./colors/forest.png;./chimpansee/chimpansee-wit.afpub;./colors/white.png;forest;Emely;M
-Potto;./colors/forest.png;./potto/potto-wit.afpub;./colors/white.png;forest;Britt;L
-Ambergele oprechte Pinguïn;./colors/forest.png;./pinguin/pinguin-wit.afpub;./colors/white.png;forest;Willy;XXL
-Bergbever;./colors/forest.png;./bergbever/bergbever-wit.afpub;./colors/white.png;forest;Lotte H;XL
-Berglemming;./colors/forest.png;./berglemming/berglemming-wit.afpub;./colors/white.png;forest;Katrien;S
-Nandoe;./colors/navy.png;./nandoe/nandoe-wit.afpub;./colors/white.png;Navy;Nathalie;S
+totem;color;file;black/white;color;Front;Back
+Filantropisch Damhert;./colors/forest.png;./damhert/damhert-wit.afpub;./colors/white.png;forest;./textil/forest-front.jpg;./textil/forest.jpg
+Blijmoedige Streepmuis;./colors/navy.png;./streepmuis/streepmuis-wit.afpub;./colors/white.png;navy;./textil/forest-front.jpg;./textil/forest.jpg
+Aurorawitte Stoutmoedige Pumba;./colors/black.png;./pumba/pumba-wit.afpub;./colors/white.png;Black;./textil/forest-front.jpg;./textil/forest.jpg
+Amicale Golden Retriever;./colors/forest.png;./retriever/retriever-wit.afpub;./colors/white.png;forest;./textil/forest-front.jpg;./textil/forest.jpg
+Betrouwbare Narwal;./colors/forest.png;./narwal/narwal-wit.afpub;./colors/white.png;forest;./textil/forest-front.jpg;./textil/forest.jpg
+Kogelvis;./colors/forest.png;./kogelvis/kogelvis-wit.afpub;./colors/white.png;forest;./textil/forest-front.jpg;./textil/forest.jpg
+Vlijtig Konijn;./colors/forest.png;./konijn/konijn-wit.afpub;./colors/white.png;forest;./textil/forest-front.jpg;./textil/forest.jpg
+Fervente Steppelemming;./colors/forest.png;./steppelemming/steppelemming-wit.afpub;./colors/white.png;forest;./textil/forest-front.jpg;./textil/forest.jpg
+Vredelievende Chimpansee;./colors/forest.png;./chimpansee/chimpansee-wit.afpub;./colors/white.png;forest;./textil/forest-front.jpg;./textil/forest.jpg
+Potto;./colors/forest.png;./potto/potto-wit.afpub;./colors/white.png;forest;./textil/forest-front.jpg;./textil/forest.jpg
+Ambergele oprechte Pinguïn;./colors/forest.png;./pinguin/pinguin-wit.afpub;./colors/white.png;forest;./textil/forest-front.jpg;./textil/forest.jpg
+Bergbever;./colors/forest.png;./bergbever/bergbever-wit.afpub;./colors/white.png;forest;./textil/forest-front.jpg;./textil/forest.jpg
+Berglemming;./colors/forest.png;./berglemming/berglemming-wit.afpub;./colors/white.png;forest;./textil/forest-front.jpg;./textil/forest.jpg
+Nandoe;./colors/navy.png;./nandoe/nandoe-wit.afpub;./colors/white.png;Navy;./textil/forest-front.jpg;./textil/forest.jpg

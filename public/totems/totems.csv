@@ -1,7 +1,9 @@
 totem;color;file;black/white;color
-Sneeuwuil;./colors/black.png;./sneeuwuil/sneeuwuil-wit.afpub;./colors/white.png;black
-Sneeuwuil;./colors/bordeaux.png;./sneeuwuil/sneeuwuil-wit.afpub;./colors/white.png;bordeaux
-Sneeuwuil;./colors/asphalt.png;./sneeuwuil/sneeuwuil-wit.afpub;./colors/white.png;asphalt
-Sneeuwuil;./colors/forest.png;./sneeuwuil/sneeuwuil-wit.afpub;./colors/white.png;forest
-Sneeuwuil;./colors/navy.png;./sneeuwuil/sneeuwuil-wit.afpub;./colors/white.png;navy
-Sneeuwuil;./colors/fog.png;./sneeuwuil/sneeuwuil-zwart.afpub;./colors/black.png;fog
+Cavia;./colors/bordeaux.png;./cavia/cavia-wit.afpub;./colors/white.png;bordeaux
+Cavia;./colors/asphalt.png;./cavia/cavia-wit.afpub;./colors/white.png;asphalt
+Cavia;./colors/forest.png;./cavia/cavia-wit.afpub;./colors/white.png;forest
+Cavia;./colors/navy.png;./cavia/cavia-wit.afpub;./colors/white.png;navy
+Penseelaapje;./colors/bordeaux.png;./penseelaapje/penseelaapje-wit.afpub;./colors/white.png;bordeaux
+Penseelaapje;./colors/asphalt.png;./penseelaapje/penseelaapje-wit.afpub;./colors/white.png;asphalt
+Penseelaapje;./colors/forest.png;./penseelaapje/penseelaapje-wit.afpub;./colors/white.png;forest
+Penseelaapje;./colors/navy.png;./penseelaapje/penseelaapje-wit.afpub;./colors/white.png;navy

@@ -1,6 +1,5 @@
 {
   "aalscholver": {
-    "categoryId": "birds",
     "color": "zwart, bruin",
     "danger": "niet bedreigd",
     "description": "De Aalscholver staat bekend om zijn uitzonderlijke visvaardigheden en sociale aard. Hij werkt vaak samen met soortgenoten om voedsel te vangen en is een symbool van samenwerking en efficiëntie in de natuur.",
@@ -9,7 +8,6 @@
     "habitat": "kustgebieden, meren, rivieren",
     "hoodie": "Blijf warm en comfortabel met onze hoodie geïnspireerd door de efficiënte en sociale Aalscholver. Ideaal voor natuuravonturen.",
     "image": "/totems/aalscholver/aalscholver.png",
-    "picture": "/totems/aalscholver/aalscholver-pic.png",
     "map": "/totems/aalscholver/map.png",
     "other_names": "Comorant",
     "processed": true,
@@ -20,7 +18,6 @@
     "weight": "2-3 kilogram"
   },
   "aap": {
-    "categoryId": "mammals",
     "color": "bruin, grijs",
     "danger": "niet bedreigd",
     "description": "De Aap staat symbool voor intelligentie, speelsheid en zorgzaamheid. Levend in groepen toont hij sterke sociale vaardigheden en een nieuwsgierige aard. De Aap is een meester in overleven dankzij zijn slimme en speelse karakter.",
@@ -39,7 +36,6 @@
     "weight": "5-15 kilogram"
   },
   "aardeekhoorn": {
-    "categoryId": "mammals",
     "color": "bruin, grijs",
     "danger": "niet bedreigd",
     "description": "De Aardeekhoorn is een bedrijvig en vooruitziend dier, bekend om zijn vermogen om voorraden aan te leggen voor moeilijke tijden. Hij staat symbool voor voorbereiding, behendigheid en vlijtig werken.",
@@ -58,7 +54,6 @@
     "weight": "100-300 gram"
   },
   "adder": {
-    "categoryId": "reptiles",
     "color": "bruin, grijs, zwart",
     "danger": "niet bedreigd",
     "description": "De Adder is een symbool van doelgerichtheid en overlevingskracht. Bekend om zijn vermogen om te wachten op het juiste moment om toe te slaan, staat hij symbool voor geduld, focus en vastberadenheid.",
@@ -77,7 +72,6 @@
     "weight": "0.2-1.0 kilogram"
   },
   "agame": {
-    "categoryId": "reptiles",
     "color": "groen, bruin, geel",
     "danger": "niet bedreigd",
     "description": "De Agame is een symbool van aanpassingsvermogen en speelsheid. Bekend om zijn vermogen om zich snel aan verschillende omgevingen aan te passen, staat hij symbool voor flexibiliteit, nieuwsgierigheid en een ondeugend karakter.",
@@ -96,7 +90,6 @@
     "weight": "0.2-0.5 kilogram"
   },
   "agoeti": {
-    "categoryId": "mammals",
     "color": "bruin, oranje",
     "danger": "niet bedreigd",
     "description": "De Agoeti staat symbool voor bedrijvigheid en moed. Hij is een harde werker, altijd bezig met het verzamelen van voedsel en overleven in de jungle. Zijn dappere karakter en onverschrokkenheid maken hem een symbool van veerkracht en vastberadenheid.",
@@ -115,7 +108,6 @@
     "weight": "2-4 kilogram"
   },
   "albatros": {
-    "categoryId": "birds",
     "color": "wit, zwart, grijs",
     "danger": "kwetsbaar",
     "description": "De Albatros staat symbool voor uithoudingsvermogen en sierlijkheid. Dit zeevogelicoon is een uitstekende langeafstandsvlieger en staat bekend om zijn onbegrensde tochten over de oceanen.",
@@ -134,7 +126,6 @@
     "weight": "8-12 kilogram"
   },
   "alk": {
-    "categoryId": "birds",
     "color": "zwart, wit",
     "danger": "niet bedreigd",
     "description": "De Alk is een sociale en zorgzame vogel die vaak in kolonies leeft. Hij staat symbool voor eenvoud, loyaliteit en sociale verbondenheid binnen zijn groep.",
@@ -153,7 +144,6 @@
     "weight": "0.7-1 kilogram"
   },
   "alpaca": {
-    "categoryId": "mammals",
     "color": "wit, bruin, zwart",
     "danger": "niet bedreigd",
     "description": "De Alpaca staat symbool voor zachtheid, sociale verbondenheid en geduld. Bekend om zijn rustige aard, leeft hij in kuddes en biedt hij troost met zijn zachte wol.",
@@ -172,7 +162,6 @@
     "weight": "55-65 kilogram"
   },
   "alpenhond": {
-    "categoryId": "mammals",
     "color": "roodbruin, geel",
     "danger": "bedreigd",
     "description": "De Alpenhond is een sociaal en sterk dier dat in groepen jaagt. Hij staat symbool voor samenwerking, waakzaamheid en trouw aan zijn roedel.",
@@ -191,7 +180,6 @@
     "weight": "10-18 kilogram"
   },
   "amerikaanse-zeearend": {
-    "categoryId": "birds",
     "color": "bruin, wit, geel",
     "danger": "niet bedreigd",
     "description": "De Amerikaanse Zeearend staat symbool voor kracht, trots en vrijheid. Deze majestueuze vogel is bekend om zijn scherpe blik en zijn vermogen om grote afstanden te overbruggen terwijl hij op de wind zweeft.",
@@ -211,7 +199,6 @@
     "weight": "4-7 kilogram"
   },
   "ara": {
-    "categoryId": "birds",
     "color": "rood, blauw, geel",
     "danger": "bedreigd",
     "description": "De Ara is een kleurrijke en intelligente papegaai, bekend om zijn vermogen om geluiden na te bootsen en sterke sociale banden te vormen. Hij staat symbool voor intelligentie, speelsheid en sociale verbondenheid.",
@@ -230,7 +217,6 @@
     "weight": "1-1.5 kilogram"
   },
   "arassari": {
-    "categoryId": "birds",
     "color": "geel, zwart, rood",
     "danger": "niet bedreigd",
     "description": "De Arassari staat symbool voor speelsheid, bescherming en sociale verbondenheid. Hij leeft in groepen en is een kleurrijke, vrolijke vogel die bekend staat om zijn energieke gedrag en zorg voor zijn soortgenoten.",
@@ -249,7 +235,6 @@
     "weight": "150-300 gram"
   },
   "arend": {
-    "categoryId": "birds",
     "color": "bruin, wit, zwart",
     "danger": "niet bedreigd",
     "description": "De Arend staat symbool voor kracht, trots en scherpzinnigheid. Deze indrukwekkende roofvogel is bekend om zijn scherpe blik en zijn vermogen om hoog boven de grond te zweven terwijl hij zijn prooi opspoort.",
@@ -268,7 +253,6 @@
     "weight": "3-6 kilogram"
   },
   "banteng": {
-    "categoryId": "mammals",
     "color": "bruin, zwart, wit",
     "danger": "bedreigd",
     "description": "De Banteng is een sociaal en nuttig dier, dat vaak in kuddes leeft. Hij staat symbool voor kracht, veelzijdigheid en aanpassingsvermogen, en heeft een belangrijke rol in de ecosystemen van Zuidoost-Azië.",
@@ -287,7 +271,6 @@
     "weight": "600-800 kilogram"
   },
   "baviaan": {
-    "categoryId": "mammals",
     "color": "bruin, grijs",
     "danger": "niet bedreigd",
     "description": "De Baviaan is een sociaal en intelligent dier dat in sterke hiërarchische groepen leeft. Hij staat symbool voor bescherming, intelligentie en samenwerking binnen een gemeenschap.",
@@ -306,7 +289,6 @@
     "weight": "20-40 kilogram"
   },
   "beer": {
-    "categoryId": "mammals",
     "color": "bruin, zwart",
     "danger": "niet bedreigd",
     "description": "De Beer is een indrukwekkend en krachtig dier, bekend om zijn veelzijdigheid en gemoedelijkheid. Hij staat symbool voor bescherming, kracht en aanpassingsvermogen. De Beer kan zich goed aanpassen aan verschillende leefomgevingen en speelt een cruciale rol in het ecosysteem.",
@@ -325,7 +307,6 @@
     "weight": "100-600 kilogram"
   },
   "beermarter": {
-    "categoryId": "mammals",
     "color": "zwart, bruin",
     "danger": "kwetsbaar",
     "description": "De Beermarter staat symbool voor zorgzaamheid, zachtaardigheid en sociale verbondenheid. Hij leeft in groepen en is een intelligent en speels dier dat sterk hecht aan zijn soortgenoten.",
@@ -344,7 +325,6 @@
     "weight": "9-14 kilogram"
   },
   "bij": {
-    "categoryId": "insects",
     "color": "zwart, geel",
     "danger": "afhankelijk van soort",
     "description": "De Bij staat bekend om haar onvermoeibare werkethiek en samenwerking binnen de kolonie. Ze speelt een vitale rol in de bestuiving van bloemen, wat haar een symbool maakt van bedrijvigheid, samenwerking en zorgzaamheid.",
@@ -353,7 +333,6 @@
     "habitat": "bossen, velden, tuinen",
     "hoodie": "Blijf warm en productief met deze hoodie geïnspireerd door de harde werker, de Bij. Perfect voor zowel werk als ontspanning.",
     "image": "/totems/bij/bij.png",
-    "picture": "/totems/bij/bij-pic.png",
     "map": "/totems/bij/map.png",
     "other_names": "Apis",
     "processed": true,
@@ -364,8 +343,7 @@
     "weight": "0.1 gram"
   },
   "buffel": {
-    "categoryId": "mammals",
-      "color": "zwart, bruin",
+    "color": "zwart, bruin",
     "danger": "kwetsbaar",
     "description": "De Buffel staat symbool voor kracht en doorzettingsvermogen. Hij is een sociaal dier dat in groepen leeft en bekend staat om zijn enorme kracht. De Buffel is een trouwe helper in veel gemeenschappen over de hele wereld.",
     "distribution": "Zuid-Azië, Zuidoost-Azië",
@@ -383,7 +361,6 @@
     "weight": "700-1200 kilogram"
   },
   "buizerd": {
-    "categoryId": "birds",
     "color": "bruin, wit, zwart",
     "danger": "niet bedreigd",
     "description": "De Buizerd staat symbool voor scherpzinnigheid en kracht. Met zijn indrukwekkende vliegvaardigheden en scherpe blik is hij een geduchte jager in het wild. De Buizerd is een waakzaam en doelgericht dier, dat vaak hoog in de lucht te vinden is.",
@@ -402,7 +379,6 @@
     "weight": "0.8-1.4 kilogram"
   },
   "buldog": {
-    "categoryId": "mammals",
     "color": "bruin, wit, zwart",
     "danger": "niet bedreigd",
     "description": "De Buldog staat symbool voor vastberadenheid en loyaliteit. Bekend om zijn krachtige bouw en trouwe aard, vertegenwoordigt de Buldog een betrouwbaar en beschermend karakter. Hij is zowel zachtmoedig als sterk in zijn omgang met mensen.",
@@ -421,7 +397,6 @@
     "weight": "18-25 kilogram"
   },
   "civetkat": {
-    "categoryId": "mammals",
     "color": "bruin, wit",
     "danger": "niet bedreigd",
     "description": "De Civetkat is een speels en nieuwsgierig dier dat bekend staat om zijn behendigheid en intelligentie. Hij leeft in groepen en is sociaal naar zijn soortgenoten. Deze eigenschappen maken de Civetkat een symbool van slimheid, behendigheid en sociaal gedrag.",
@@ -440,7 +415,6 @@
     "weight": "5-10 kilogram"
   },
   "collie": {
-    "categoryId": "mammals",
     "color": "bruin, wit, zwart",
     "danger": "niet bedreigd",
     "description": "De Collie is een trouwe en intelligente herdershond, bekend om zijn vermogen om kuddes te leiden en te beschermen. Hij staat symbool voor loyaliteit, intelligentie en zorgzaamheid.",
@@ -459,7 +433,6 @@
     "weight": "20-30 kilogram"
   },
   "dingo": {
-    "categoryId": "mammals",
     "color": "geel, rood, bruin",
     "danger": "niet bedreigd",
     "description": "De Dingo is een onafhankelijke en dappere jager, bekend om zijn aanpassingsvermogen en overlevingsvaardigheden in de woestijnen en savannes. Deze eigenschappen maken de Dingo een symbool van kracht, doorzettingsvermogen en onafhankelijkheid.",
@@ -478,7 +451,6 @@
     "weight": "15-20 kilogram"
   },
   "dolfijn": {
-    "categoryId": "mammals",
     "color": "grijs, wit",
     "danger": "niet bedreigd",
     "description": "De Dolfijn is een intelligent en sociaal dier, bekend om zijn speelsheid en communicatieve vaardigheden. Hij leeft in groepen en staat symbool voor vriendschap, intelligentie en speelsheid.",
@@ -497,7 +469,6 @@
     "weight": "150-650 kilogram"
   },
   "duif": {
-    "categoryId": "birds",
     "color": "grijs, wit, bruin",
     "danger": "niet bedreigd",
     "description": "De Duif is een symbool van vrede en toewijding. Bekend om zijn trouwe aard en vermogen om naar zijn thuis terug te keren, staat de Duif symbool voor loyaliteit en zorgzaamheid. Hij leeft vaak in groepen en is een sociaal en vreedzaam dier.",
@@ -516,7 +487,6 @@
     "weight": "200-300 gram"
   },
   "ezel": {
-    "categoryId": "mammals",
     "color": "grijs, bruin, zwart",
     "danger": "niet bedreigd",
     "description": "De Ezel is een symbool van volharding en kracht. Bekend om zijn vermogen om lange afstanden te lopen en zware ladingen te dragen, staat de Ezel symbool voor doorzettingsvermogen en betrouwbaarheid. Hij is een belangrijke helper in vele agrarische gemeenschappen.",
@@ -535,7 +505,6 @@
     "weight": "200-400 kilogram"
   },
   "giraf": {
-    "categoryId": "mammals",
     "color": "geel, bruin, wit",
     "danger": "kwetsbaar",
     "description": "De Giraf is een sierlijk en vredelievend dier dat in groepen leeft. Door zijn hoogte kan hij zich gemakkelijk voeden met de bladeren van hoge bomen. De Giraf staat symbool voor elegantie, zorgzaamheid en kalmte.",
@@ -554,7 +523,6 @@
     "weight": "800-1200 kilogram"
   },
   "haan": {
-    "categoryId": "birds",
     "color": "rood, bruin, wit, zwart",
     "danger": "niet bedreigd",
     "description": "De Haan is een symbool van waakzaamheid en trots. Bekend om zijn vroege gekraai, staat de Haan symbool voor dapperheid en het bewaken van zijn omgeving. Hij is een vertrouwd dier in veel agrarische gemeenschappen.",
@@ -573,7 +541,6 @@
     "weight": "2-3 kilogram"
   },
   "hyena": {
-    "categoryId": "mammals",
     "color": "geel, bruin, zwart",
     "danger": "niet bedreigd",
     "description": "De Hyena staat symbool voor vasthoudendheid, kracht en intelligentie. Ze leven in sterke sociale groepen en staan bekend om hun sluwheid en vermogen om samen te werken om te overleven.",
@@ -592,8 +559,7 @@
     "weight": "40-70 kilogram"
   },
   "ijsbeer": {
-    "categoryId": "mammals",
-      "color": "wit",
+    "color": "wit",
     "danger": "kwetsbaar",
     "description": "De IJsbeer staat symbool voor kracht en overlevingsvaardigheden. Bekend om zijn vermogen om in de barre omstandigheden van de poolgebieden te overleven, vertegenwoordigt de IJsbeer kracht, onafhankelijkheid en veerkracht.",
     "distribution": "Arctisch gebied",
@@ -611,7 +577,6 @@
     "weight": "350-700 kilogram"
   },
   "impala": {
-    "categoryId": "mammals",
     "color": "roodbruin, wit",
     "danger": "niet bedreigd",
     "description": "De Impala staat symbool voor snelheid, behendigheid en sierlijkheid. Bekend om zijn vermogen om snel te ontsnappen aan roofdieren, vertegenwoordigt de Impala gratie en snelheid.",
@@ -630,7 +595,6 @@
     "weight": "40-70 kilogram"
   },
   "kameel": {
-    "categoryId": "mammals",
     "color": "bruin, beige",
     "danger": "niet bedreigd",
     "description": "De Kameel staat symbool voor doorzettingsvermogen en aanpassingsvermogen. Bekend om zijn vermogen om lange afstanden in barre omstandigheden af te leggen, vertegenwoordigt de Kameel uithoudingsvermogen en kracht.",
@@ -649,7 +613,6 @@
     "weight": "400-600 kilogram"
   },
   "kikker": {
-    "categoryId": "insects",
     "color": "groen, bruin",
     "danger": "afhankelijk van soort",
     "description": "De Kikker staat symbool voor aanpassingsvermogen en alertheid. Bekend om zijn vermogen om snel van water naar land te bewegen, vertegenwoordigt de Kikker een flexibele en energieke levensstijl.",
@@ -668,7 +631,6 @@
     "weight": "20-300 gram"
   },
   "leeuw": {
-    "categoryId": "mammals",
     "color": "geel, bruin",
     "danger": "kwetsbaar",
     "description": "De Leeuw is bekend als de 'Koning der Dieren'. Hij staat symbool voor kracht, trots en leiderschap. Levend in groepen genaamd 'troepen', is de Leeuw een sociaal roofdier dat zijn territorium beschermt met kracht en intelligentie.",
@@ -687,7 +649,6 @@
     "weight": "150-250 kilogram"
   },
   "maki": {
-    "categoryId": "mammals",
     "color": "grijs, wit, zwart",
     "danger": "bedreigd",
     "description": "De Maki staat symbool voor speelsheid, intelligentie en sociale verbondenheid. Dit groepsdier, afkomstig uit Madagaskar, is bekend om zijn nieuwsgierige en energieke aard en hechte sociale banden.",
@@ -706,8 +667,7 @@
     "processed": true
   },
   "parkiet": {
-    "categoryId": "birds",
-      "color": "groen, geel, blauw",
+    "color": "groen, geel, blauw",
     "danger": "niet bedreigd",
     "description": "De Parkiet staat symbool voor speelsheid, intelligentie en sociale interactie. Bekend om zijn vermogen om geluiden na te bootsen en zijn kleurrijke veren, vertegenwoordigt de Parkiet vreugde en creativiteit.",
     "distribution": "Australië, wereldwijd in gevangenschap",
@@ -725,7 +685,6 @@
     "weight": "30-40 gram"
   },
   "pongo": {
-    "categoryId": "mammals",
     "color": "oranje, bruin",
     "danger": "bedreigd",
     "description": "De Pongo, of Orang-oetan, is een symbool van intelligentie, zorgzaamheid en geduld. Bekend om zijn sterke sociale banden en rustige aard, vertegenwoordigt de Pongo wijsheid en bescherming.",
@@ -744,7 +703,6 @@
     "weight": "50-100 kilogram"
   },
   "schildpad": {
-    "categoryId": "reptiles",
     "color": "bruin, groen, zwart",
     "danger": "afhankelijk van soort",
     "description": "De Schildpad is een symbool van geduld, wijsheid en uithoudingsvermogen. Bekend om zijn lange levensduur en beschermende schild, vertegenwoordigt de Schildpad stabiliteit en een lang leven. Hij leeft vaak in rustige wateren of graslanden en beweegt in zijn eigen tempo.",
@@ -763,7 +721,6 @@
     "weight": "0.5-300 kilogram"
   },
   "schorpioen": {
-    "categoryId": "insects",
     "color": "zwart, bruin, geel",
     "danger": "niet bedreigd",
     "description": "De Schorpioen staat symbool voor waakzaamheid en kracht. Bekend om zijn scherpe staart en sluipende aard, vertegenwoordigt de Schorpioen een doelgericht en beschermend karakter. Hij is zowel mysterieus als krachtig in zijn natuurlijke omgeving.",
@@ -782,7 +739,6 @@
     "weight": "10-100 gram"
   },
   "springbok": {
-    "categoryId": "mammals",
     "color": "bruin, wit, zwart",
     "danger": "niet bedreigd",
     "description": "De Springbok is een symbool van energie, wendbaarheid en veerkracht. Bekend om zijn sprongen die tot wel drie meter hoog kunnen zijn, staat de Springbok symbool voor levendigheid en kracht.",
@@ -801,7 +757,6 @@
     "weight": "30-40 kilogram"
   },
   "tijger": {
-    "categoryId": "mammals",
     "color": "oranje, zwart, wit",
     "danger": "bedreigd",
     "description": "De Tijger is het grootste lid van de katachtige familie en staat bekend om zijn kracht, onafhankelijkheid en jachtvaardigheden. Dit indrukwekkende roofdier leeft vaak alleen en staat symbool voor kracht en moed.",
@@ -820,8 +775,7 @@
     "weight": "100-300 kilogram"
   },
   "vink": {
-    "categoryId": "birds",
-      "color": "bruin, wit, rood, zwart",
+    "color": "bruin, wit, rood, zwart",
     "danger": "niet bedreigd",
     "description": "De Vink is een klein, levendig en sociaal dier. Bekend om zijn melodieuze zang en oplettende aard. Hij staat symbool voor zorgzaamheid en doorzettingsvermogen.",
     "distribution": "Europa, Azië, Noord-Afrika",
@@ -839,7 +793,6 @@
     "weight": "18-29 gram"
   },
   "vleermuis": {
-    "categoryId": "mammals",
     "color": "bruin, zwart, grijs",
     "danger": "afhankelijk van soort",
     "description": "De Vleermuis staat symbool voor waakzaamheid en behendigheid. Bekend om zijn vermogen om zich door de nacht te navigeren en zijn scherpzinnige gehoor, vertegenwoordigt de Vleermuis een geheimzinnig en snel karakter.",
@@ -858,7 +811,6 @@
     "weight": "2-150 gram"
   },
   "wezel": {
-    "categoryId": "mammals",
     "color": "bruin, wit",
     "danger": "niet bedreigd",
     "description": "De Wezel is een symbool van snelheid, sluwheid en behendigheid. Hij staat bekend om zijn vermogen om snel te bewegen en slimme strategieën te gebruiken om voedsel te vinden. De Wezel is een meester in overleven door zijn behendigheid en intelligentie.",
@@ -877,7 +829,6 @@
     "weight": "150-250 gram"
   },
   "zwaluw": {
-    "categoryId": "birds",
     "color": "zwart, wit, blauw",
     "danger": "niet bedreigd",
     "description": "De Zwaluw is een symbool van vrijheid en snelheid. Bekend om zijn migratie over lange afstanden en zijn wendbare vliegvaardigheden, vertegenwoordigt de Zwaluw vrijheid, vreugde en snelheid.",
@@ -896,7 +847,6 @@
     "weight": "15-25 gram"
   },
   "saki": {
-    "categoryId": "mammals",
     "title": "Saki",
     "other_names": "Saki-aap",
     "image": "/totems/saki/saki.png",
@@ -915,7 +865,6 @@
     "processed": true
   },
   "brulaap": {
-    "categoryId": "mammals",
     "title": "Brulaap",
     "other_names": "Caraya, Alouatta",
     "image": "/totems/brulaap/brulaap.png",
@@ -934,9 +883,8 @@
     "processed": true
   },
   "retriever": {
-    "categoryId": "mammals",
-      "title": "Retriever",
-    "other_names": "Golden Retriever, Labrador Retriever",
+    "title": "Retriever",
+    "other_names": "Golden Retriever, Labrador",
     "image": "/totems/retriever/retriever.png",
     "map": "/totems/retriever/map.png",
     "size": "50-60 centimeter",
@@ -953,7 +901,6 @@
     "processed": true
   },
   "neushoorn": {
-    "categoryId": "mammals",
     "title": "Neushoorn",
     "other_names": "Rhinocerotidae",
     "image": "/totems/neushoorn/neushoorn.png",
@@ -972,7 +919,6 @@
     "processed": true
   },
   "mandril": {
-    "categoryId": "mammals",
     "title": "Mandril",
     "other_names": "Mandrillo",
     "image": "/totems/mandril/mandril.png",
@@ -991,7 +937,6 @@
     "processed": true
   },
   "steppelemming": {
-    "categoryId": "mammals",
     "title": "Steppelemming",
     "other_names": "Lagurus lagurus",
     "image": "/totems/steppelemming/steppelemming.png",
@@ -1010,7 +955,6 @@
     "processed": true
   },
   "spitsnuitdolfijn": {
-    "categoryId": "mammals",
     "title": "Spitsnuitdolfijn",
     "other_names": "Zifio, Butskop",
     "image": "/totems/spitsnuitdolfijn/spitsnuitdolfijn.png",
@@ -1029,7 +973,6 @@
     "processed": true
   },
   "herdershond": {
-    "categoryId": "mammals",
     "title": "Herdershond",
     "other_names": "Herdersras",
     "image": "/totems/herdershond/herdershond.png",
@@ -1048,7 +991,6 @@
     "processed": true
   },
   "patrijs": {
-    "categoryId": "mammals",
     "title": "Patrijs",
     "other_names": "Veldhoen, Perdix",
     "image": "/totems/patrijs/patrijs.png",
@@ -1067,7 +1009,6 @@
     "processed": true
   },
   "vlinder": {
-    "categoryId": "insects",
     "title": "Vlinder",
     "other_names": "Koolwitje, Citroenvlinder",
     "image": "/totems/vlinder/vlinder.png",
@@ -1086,7 +1027,6 @@
     "processed": true
   },
   "otter": {
-    "categoryId": "mammals",
     "title": "Otter",
     "other_names": "Visotter, Zeeotter, Sero",
     "image": "/totems/otter/otter.png",
@@ -1105,7 +1045,6 @@
     "processed": true
   },
   "steltkluut": {
-    "categoryId": "birds",
     "title": "Steltkluut",
     "other_names": "",
     "image": "/totems/steltkluut/steltkluut.png",
@@ -1124,7 +1063,6 @@
     "processed": true
   },
   "stekelvarken": {
-    "categoryId": "mammals",
     "title": "Stekelvarken",
     "other_names": "Landak, Noko, Coendou",
     "image": "/totems/stekelvarken/stekelvarken.png",
@@ -1143,7 +1081,6 @@
     "processed": true
   },
   "scholekster": {
-    "categoryId": "birds",
     "title": "Scholekster",
     "other_names": "Bonte piet",
     "image": "/totems/scholekster/scholekster.png",
@@ -1162,7 +1099,6 @@
     "processed": true
   },
   "schaarbek": {
-    "categoryId": "birds",
     "title": "Schaarbek",
     "other_names": "Rayador",
     "image": "/totems/schaarbek/schaarbek.png",
@@ -1181,7 +1117,6 @@
     "processed": true
   },
   "sifaka": {
-    "categoryId": "mammals",
     "title": "Sifaka",
     "other_names": "Zijdesifaka, Kroonsifaka",
     "image": "/totems/sifaka/sifaka.png",
@@ -1200,7 +1135,6 @@
     "processed": true
   },
   "kaketoe": {
-    "categoryId": "birds",
     "title": "Kaketoe",
     "other_names": "Galah",
     "image": "/totems/kaketoe/kaketoe.png",
@@ -1219,7 +1153,6 @@
     "processed": true
   },
   "schoenbekooievaar": {
-    "categoryId": "birds",
     "title": "Schoenbekooievaar",
     "other_names": "Schoensnavel, Markoeb",
     "image": "/totems/schoenbekooievaar/schoenbekooievaar.png",
@@ -1238,7 +1171,6 @@
     "processed": true
   },
   "zalm": {
-    "categoryId": "mammals",
     "title": "Zalm",
     "other_names": "Salmono, Salmo",
     "image": "/totems/zalm/zalm.png",
@@ -1257,7 +1189,6 @@
     "processed": true
   },
   "sneeuwhoen": {
-    "categoryId": "birds",
     "title": "Sneeuwhoen",
     "other_names": "Spitsvleugelhoen, Witstaartsneeuwhoen, Alpensneeuwhoen",
     "image": "/totems/sneeuwhoen/sneeuwhoen.png",
@@ -1276,7 +1207,6 @@
     "processed": true
   },
   "neusbeer": {
-    "categoryId": "mammals",
     "title": "Neusbeer",
     "other_names": "Pizote, Coati",
     "image": "/totems/neusbeer/neusbeer.png",
@@ -1295,7 +1225,6 @@
     "processed": true
   },
   "kongoni": {
-    "categoryId": "mammals",
     "title": "Kongoni",
     "other_names": "Hartenbeest, Kama, Konzi, Bubale",
     "image": "/totems/kongoni/kongoni.png",
@@ -1314,7 +1243,6 @@
     "processed": true
   },
   "sneeuwstormvogel": {
-    "categoryId": "birds",
     "title": "Sneeuwstormvogel",
     "other_names": "Sneeuwpetrel",
     "image": "/totems/sneeuwstormvogel/sneeuwstormvogel.png",
@@ -1333,7 +1261,6 @@
     "processed": true
   },
   "jak": {
-    "categoryId": "mammals",
     "title": "Jak",
     "other_names": "Bromrund",
     "image": "/totems/jak/jak.png",
@@ -1348,11 +1275,10 @@
     "tshirt": "Laat je taaie en zelfzekere kant zien met dit T-shirt geïnspireerd door de geharde en veelzijdige Jak.",
     "hoodie": "Blijf warm en moedig met deze hoodie geïnspireerd door de sterke en uithoudende Jak.",
     "sweater": "Deze sweater biedt comfort en kracht, geïnspireerd door de sociale en standvastige Jak.",
-    "description": "De Jak is een gehard dier dat leeft in extreme kou en grote hoogtes. Hij beweegt zich moeiteloos in groepen over ruig terrein en staat symbool voor kracht, uithoudingsvermogen en zelfvertrouwen. De Jak is veelzijdig inzetbaar en moedig in het trotseren van barre omstandigheden, een ware teamspeler met een robuuste geest.",
+    "description": "De Jak is een gehard dier dat leeft in extreme kou en grote hoogtes. Hij beweegt zich moeiteloos in groepen over ruig terrein en staat symbool voor kracht, uithoudingsvermogen en zelfvertrouwen. De Jak is veelzijdig inzetbaar en moedig in het trotseren van barre omstandigheden — een ware teamspeler met een robuuste geest.",
     "processed": true
   },
   "lori": {
-    "categoryId": "birds",
     "title": "Lori",
     "other_names": "Vini",
     "image": "/totems/lori/lori.png",
@@ -1371,7 +1297,6 @@
     "processed": true
   },
   "sneeuwuil": {
-    "categoryId": "birds",
     "title": "Sneeuwuil",
     "other_names": "Hedwig",
     "image": "/totems/sneeuwuil/sneeuwuil.png",
@@ -1387,6 +1312,240 @@
     "hoodie": "Blijf warm en standvastig met deze hoodie geïnspireerd door de bedaarde en moedige Sneeuwuil.",
     "sweater": "Deze sweater biedt comfort en kalmte, geïnspireerd door de krachtige en standvastige Sneeuwuil.",
     "description": "De Sneeuwuil is een indrukwekkende en krachtige jager uit de koude noordelijke gebieden. Met zijn stille vlucht en scherpe blik staat hij symbool voor bedachtzaamheid, rust en standvastige moed. Deze uil is doordacht en kalm, en vertrouwt op zijn instinct en inzicht om te overleven.",
+    "processed": true
+  },
+  "schroefhoorngeit": {
+    "title": "Schroefhoorngeit",
+    "other_names": "Markhoor",
+    "image": "/totems/schroefhoorngeit/schroefhoorngeit.png",
+    "map": "/totems/schroefhoorngeit/schroefhoorngeit.png",
+    "size": "130-170 centimeter",
+    "weight": "30-110 kilogram",
+    "color": "bruin, grijs, wit",
+    "habitat": "berggebieden, rotsachtige hellingen",
+    "food": "grassen, bladeren, kruiden",
+    "distribution": "Centraal- en Zuid-Azië",
+    "danger": "bedreigd",
+    "tshirt": "Laat je lenige en zelfstandige aard zien met dit T-shirt geïnspireerd door de leergierige en geharde Schroefhoorngeit.",
+    "hoodie": "Blijf warm en verstandig met deze hoodie geïnspireerd door de solidaire en nieuwsgierige Schroefhoorngeit.",
+    "sweater": "Deze sweater biedt comfort en balans, geïnspireerd door de voorzichtige en fraaie Schroefhoorngeit.",
+    "description": "De Schroefhoorngeit is een indrukwekkende bergbewoner, bekend om zijn elegant gedraaide hoorns en behendige klimgedrag. Hij leeft vaak solitair of in kleine groepen en is leergierig, voorzichtig en zelfstandig. Als totem belichaamt hij familiezin, doorzettingsvermogen, nieuwsgierigheid en innerlijke rust op grote hoogte.",
+    "processed": true
+  },
+  "luiaard": {
+    "title": "Luiaard",
+    "other_names": "Ai, Choloepus, Oenau, Cholo",
+    "image": "/totems/luiaard/luiaard.png",
+    "map": "/totems/luiaard/map.png",
+    "size": "50-70 centimeter",
+    "weight": "4-8 kilogram",
+    "color": "bruin, grijs, groenachtig door algen",
+    "habitat": "tropische regenwouden",
+    "food": "bladeren, knoppen, fruit",
+    "distribution": "Centraal- en Zuid-Amerika",
+    "danger": "niet bedreigd",
+    "tshirt": "Laat je tactische en rustige aard zien met dit T-shirt geïnspireerd door de kalme en zelfredzame Luiaard.",
+    "hoodie": "Blijf warm en bedachtzaam met deze hoodie geïnspireerd door de nachtelijke en solitair levende Luiaard.",
+    "sweater": "Deze sweater biedt comfort en rust, geïnspireerd door de slimme en voorzichtige Luiaard.",
+    "description": "De Luiaard is een nachtdier dat leeft in de toppen van het regenwoud. Met zijn kalme tempo en tactische bewegingen weet hij zich veilig en efficiënt te verplaatsen. Hij leeft solitair, is opmerkzaam en volledig zelfredzaam. De Luiaard symboliseert rust, slimheid, bedachtzaamheid en het kiezen van je eigen pad.",
+    "processed": true
+  },
+  "caracara": {
+    "title": "Caracara",
+    "other_names": "Carancho",
+    "image": "/totems/caracara/caracara.png",
+    "map": "/totems/caracara/caracara.png",
+    "size": "50-60 centimeter",
+    "weight": "800-1300 gram",
+    "color": "bruin, zwart, wit, met oranje of gele snavel",
+    "habitat": "savannes, open gebieden, berghellingen",
+    "food": "aas, insecten, kleine dieren",
+    "distribution": "Zuid- en Centraal-Amerika, zuiden van de VS",
+    "danger": "niet bedreigd",
+    "tshirt": "Laat je durf en nieuwsgierigheid zien met dit T-shirt geïnspireerd door de parmantige en intelligente Caracara.",
+    "hoodie": "Blijf warm en onbevreesd met deze hoodie geïnspireerd door de sociale en aanpassende Caracara.",
+    "sweater": "Deze sweater biedt comfort en snelheid, geïnspireerd door de slimme en moedige Caracara.",
+    "description": "De Caracara is een slimme roofvogel met een opvallend uiterlijk en zelfverzekerde houding. Hij is sociaal, nieuwsgierig en past zich moeiteloos aan uiteenlopende leefgebieden aan. Met zijn durf, snelheid en onbevreesd karakter staat de Caracara symbool voor intelligentie, lef en sociale verbondenheid.",
+    "processed": true
+  },
+  "kogelvis": {
+    "title": "Kogelvis",
+    "other_names": "Puffer, Takifugu",
+    "image": "/totems/kogelvis/kogelvis.png",
+    "map": "/totems/kogelvis/kogelvis.png",
+    "size": "20-90 centimeter",
+    "weight": "0.5-3 kilogram",
+    "color": "geel, grijs, groen, gespikkeld",
+    "habitat": "koraalriffen, kustwateren, estuaria",
+    "food": "algen, ongewervelden, schaaldieren",
+    "distribution": "Tropische en subtropische oceanen wereldwijd",
+    "danger": "sommige soorten giftig",
+    "tshirt": "Laat je guitige en expressieve kant zien met dit T-shirt geïnspireerd door de creatieve en openhartige Kogelvis.",
+    "hoodie": "Blijf warm en verantwoordelijk met deze hoodie geïnspireerd door de moedige en gevoelige Kogelvis.",
+    "sweater": "Deze sweater biedt comfort en karakter, geïnspireerd door de voorzichtige en goedgeluimde Kogelvis.",
+    "description": "De Kogelvis is een opvallende en creatieve verschijning in de onderwaterwereld. Hij staat bekend om zijn unieke verdedigingsmechanisme, maar ook om zijn guitige blik en open uitstraling. Met zijn doorzettingsvermogen, gevoeligheid en expressieve karakter is de Kogelvis een symbool van moed, verantwoordelijkheid en kleurrijke persoonlijkheid.",
+    "processed": true
+  },
+  "pijlinktvis": {
+    "title": "Pijlinktvis",
+    "other_names": "Loligo, Nautilus",
+    "image": "/totems/pijlinktvis/pijlinktvis.png",
+    "map": "/totems/pijlinktvis/pijlinktvis.png",
+    "size": "25-60 centimeter",
+    "weight": "0.5-2 kilogram",
+    "color": "doorzichtig, zilverachtig, met kleurverandering mogelijk",
+    "habitat": "kustwateren, open zee",
+    "food": "vis, garnalen, andere inktvissen",
+    "distribution": "wereldwijd in gematigde en tropische zeeën",
+    "danger": "niet bedreigd",
+    "tshirt": "Laat je nieuwsgierige en uitdagende aard zien met dit T-shirt geïnspireerd door de ondeugende en vriendelijke Pijlinktvis.",
+    "hoodie": "Blijf warm en ingenieus met deze hoodie geïnspireerd door de snelle en verdedigende Pijlinktvis.",
+    "sweater": "Deze sweater biedt comfort en karakter, geïnspireerd door de rustige en grappige Pijlinktvis.",
+    "description": "De Pijlinktvis is een ingenieus en nieuwsgierig zeewezen, bekend om zijn snelheid, kleurverandering en ondeugende aard. Hij is zowel grappig als verdedigend wanneer nodig, en leeft vaak in scholen. Deze bijzondere jager symboliseert creativiteit, standvastigheid en een speelse maar doordachte benadering van het leven.",
+    "processed": true
+  },
+  "hop": {
+    "title": "Hop",
+    "other_names": "Barao",
+    "image": "/totems/hop/hop.png",
+    "map": "/totems/hop/hop.png",
+    "size": "25-30 centimeter",
+    "weight": "50-90 gram",
+    "color": "oranjebruin met zwart-witte vleugels en kuif",
+    "habitat": "open graslanden, boomgaarden, savannes",
+    "food": "insecten, larven, kleine ongewervelden",
+    "distribution": "Europa, Afrika, Azië",
+    "danger": "niet bedreigd",
+    "tshirt": "Laat je vrolijke en trouwe kant zien met dit T-shirt geïnspireerd door de zanglustige en voorzichtige Hop.",
+    "hoodie": "Blijf warm en herkenbaar met deze hoodie geïnspireerd door de familiale en fiere Hop.",
+    "sweater": "Deze sweater biedt comfort en karakter, geïnspireerd door de vreesachtige maar zanglustige Hop.",
+    "description": "De Hop is een opvallende vogel met een kenmerkende kuif en een melodieuze zang. Hij is trouw aan zijn leefgebied en familie, voorzichtig in zijn gedrag, maar ook fier en vrolijk. Soms wat slordig in zijn nestgedrag, maar altijd expressief. De Hop symboliseert loyaliteit, muzikale vreugde en bescheiden moed.",
+    "processed": true
+  },
+  "streepmuis": {
+    "title": "Streepmuis",
+    "other_names": "",
+    "image": "/totems/streepmuis/streepmuis.png",
+    "map": "/totems/streepmuis/streepmuis.png",
+    "size": "9-14 centimeter",
+    "weight": "20-50 gram",
+    "color": "bruin met zwarte en witte strepen",
+    "habitat": "graslanden, savannes, struikgebieden",
+    "food": "zaden, grassen, insecten",
+    "distribution": "Sub-Sahara Afrika",
+    "danger": "niet bedreigd",
+    "tshirt": "Laat je speelse en zorgzame kant zien met dit T-shirt geïnspireerd door de bedrijvige en behendige Streepmuis.",
+    "hoodie": "Blijf warm en waakzaam met deze hoodie geïnspireerd door de nieuwsgierige en sportieve Streepmuis.",
+    "sweater": "Deze sweater biedt comfort en alertheid, geïnspireerd door de dappere en scherpzinnige Streepmuis.",
+    "description": "De Streepmuis is een actief en sociaal knaagdiertje dat leeft in groepen en constant bezig is met voedsel zoeken en waakzaam zijn. Hij is behendig, speels en nieuwsgierig, maar ook kwetsbaar en beïnvloedbaar. Als totem belichaamt hij bedrijvigheid, zorgzaamheid en sportieve alertheid in een klein maar krachtig lichaam.",
+    "processed": true
+  },
+  "flamingo": {
+    "title": "Flamingo",
+    "other_names": "Sorewilka",
+    "image": "/totems/flamingo/flamingo.png",
+    "map": "/totems/flamingo/flamingo.png",
+    "size": "110-150 centimeter",
+    "weight": "2-4 kilogram",
+    "color": "roze, wit, zwart (vleugeltoppen)",
+    "habitat": "zoutmeren, lagunes, ondiepe moerassen",
+    "food": "algen, plankton, schaaldieren",
+    "distribution": "Afrika, Zuid-Europa, Zuid- en Midden-Amerika",
+    "danger": "afhankelijk van soort",
+    "tshirt": "Laat je sociale en grappige kant zien met dit T-shirt geïnspireerd door de gevoeligheid en elegantie van de Flamingo.",
+    "hoodie": "Blijf warm en expressief met deze hoodie geïnspireerd door de praatlustige en aanpassende Flamingo.",
+    "sweater": "Deze sweater biedt comfort en verbondenheid, geïnspireerd door de kwetsbare maar groepsgerichte Flamingo.",
+    "description": "De Flamingo is een sierlijke en sociale vogel die leeft in grote kolonies. Met zijn opvallende uiterlijk en aanpassingsvermogen symboliseert hij verbondenheid, gevoeligheid en speelsheid. Zijn kwetsbaarheid wordt gecompenseerd door een sterk groepsgevoel en een praatlustig, expressief karakter.",
+    "processed": true
+  },
+  "grijsbokje": {
+    "title": "Grijsbokje",
+    "other_names": "Caprinae",
+    "image": "/totems/grijsbokje/grijsbokje.png",
+    "map": "/totems/grijsbokje/grijsbokje.png",
+    "size": "70-100 centimeter",
+    "weight": "20-40 kilogram",
+    "color": "grijs, bruin, wit",
+    "habitat": "bergachtige gebieden, rotshellingen, ruig terrein",
+    "food": "grassen, bladeren, struiken",
+    "distribution": "Eurazië, Noord-Afrika, Noord-Amerika",
+    "danger": "niet bedreigd",
+    "tshirt": "Laat je volharding en zorgzame kant zien met dit T-shirt geïnspireerd door het lenige en leergierige Grijs Bokje.",
+    "hoodie": "Blijf warm en schrander met deze hoodie geïnspireerd door het beschermende en solitair levende Grijs Bokje.",
+    "sweater": "Deze sweater biedt comfort en kalmte, geïnspireerd door het behendige en vreedzame Grijs Bokje.",
+    "description": "Het Grijs Bokje is een scherpzinnig en leergierig bergdier dat zich met uiterste precisie voortbeweegt in ruw terrein. Ondanks zijn onopvallende verschijning is hij zorgzaam, opofferingsgezind en volhardend. Als totem staat het Grijs Bokje symbool voor behendigheid, voorzichtigheid, en innerlijke kracht in stilte.",
+    "processed": true
+  },
+  "zeester": {
+    "title": "Zeester",
+    "other_names": "Asterias, Kamster, Zonnester",
+    "image": "/totems/zeester/zeester.png",
+    "map": "/totems/zeester/zeester.png",
+    "size": "10-30 centimeter",
+    "weight": "0.1-1 kilogram",
+    "color": "oranje, rood, paars, blauw, bruin",
+    "habitat": "kustwateren, rotsige bodems, koraalriffen",
+    "food": "weekdieren, detritus, algen",
+    "distribution": "wereldwijd in oceanen",
+    "danger": "niet bedreigd",
+    "tshirt": "Laat je creatieve en onderhoudende aard zien met dit T-shirt geïnspireerd door de pretentieloze en gezellige Zeester.",
+    "hoodie": "Blijf warm en weerbaar met deze hoodie geïnspireerd door de samenwerkende en behulpzame Zeester.",
+    "sweater": "Deze sweater biedt comfort en karakter, geïnspireerd door de afwachtende maar gezellige Zeester.",
+    "description": "De Zeester is een opvallend zeewezen dat leeft op de bodem van oceanen en kustwateren. Ondanks zijn rustige, afwachtende aard is hij bijzonder weerbaar en in staat tot regeneratie. De Zeester staat symbool voor behulpzaamheid, creativiteit en pretentieloos samenwerken — altijd aanwezig, altijd gezellig.",
+    "processed": true
+  },
+  "dwerghert": {
+    "title": "Dwerghert",
+    "other_names": "Kantjil, Muishert, Meminna",
+    "image": "/totems/dwerghert/dwerghert.png",
+    "map": "/totems/dwerghert/dwerghert.png",
+    "size": "40-75 centimeter",
+    "weight": "1.5-3 kilogram",
+    "color": "bruin, roodbruin, wit",
+    "habitat": "tropische bossen, struikgewas",
+    "food": "bladeren, vruchten, scheuten",
+    "distribution": "Zuidoost-Azië, Afrika",
+    "danger": "afhankelijk van soort",
+    "tshirt": "Laat je speelse en bedrijvige kant zien met dit T-shirt geïnspireerd door het grappige en nachtelijke Dwerghert.",
+    "hoodie": "Blijf warm en behoedzaam met deze hoodie geïnspireerd door het teruggetrokken en actieve Dwerghert.",
+    "sweater": "Deze sweater biedt comfort en subtiliteit, geïnspireerd door het verstandige en rustige Dwerghert.",
+    "description": "Het Dwerghert is een klein en bedrijvig zoogdier dat vooral 's nachts actief is. Ondanks zijn teruggetrokken aard is het een speels en grappig dier, met een scherp verstand en behoedzaam gedrag. Het Dwerghert staat symbool voor nachtelijke energie, subtiliteit en een levendige geest in een klein lichaam.",
+    "processed": true
+  },
+  "cavia": {
+    "title": "Cavia",
+    "other_names": "Guinees biggetje, Cobaye",
+    "image": "/totems/cavia/cavia.png",
+    "map": "/totems/cavia/cavia.png",
+    "size": "20-30 centimeter",
+    "weight": "0.8-1.2 kilogram",
+    "color": "wit, bruin, zwart, gevlekt",
+    "habitat": "graslanden, savannes, huisdierenomgeving",
+    "food": "grassen, groenten, fruit",
+    "distribution": "Zuid-Amerika (oorspronkelijk), wereldwijd als huisdier",
+    "danger": "niet bedreigd",
+    "tshirt": "Laat je gezellige en vriendelijke kant zien met dit T-shirt geïnspireerd door de communicatieve en zachtaardige Cavia.",
+    "hoodie": "Blijf warm en vrolijk met deze hoodie geïnspireerd door de grappige en sociale Cavia.",
+    "sweater": "Deze sweater biedt comfort en charme, geïnspireerd door de intelligente en zelfstandige Cavia.",
+    "description": "De Cavia is een sociaal en zachtaardig dier dat leeft in groepen en graag communiceert met zachte geluidjes. Hij is vriendelijk, gezellig en grappig, maar ook intelligent en zelfstandig. Als totem symboliseert de Cavia warmte, saamhorigheid en het vermogen om met kleine gebaren groot plezier te brengen.",
+    "processed": true
+  },
+  "penseelaapje": {
+    "title": "Penseelaapje",
+    "other_names": "Oeistiti",
+    "image": "/totems/penseelaapje/penseelaapje.png",
+    "map": "/totems/penseelaapje/penseelaapje.png",
+    "size": "18-25 centimeter",
+    "weight": "250-400 gram",
+    "color": "grijs, bruin, zwart met witte kwastjes aan de oren",
+    "habitat": "tropische regenwouden, bosranden",
+    "food": "insecten, fruit, boomsappen",
+    "distribution": "Zuid-Amerika",
+    "danger": "niet bedreigd",
+    "tshirt": "Laat je actieve en eigenzinnige aard zien met dit T-shirt geïnspireerd door het behendige en nieuwsgierige Penseelaapje.",
+    "hoodie": "Blijf warm en alert met deze hoodie geïnspireerd door het prikkelbare maar zorgzame Penseelaapje.",
+    "sweater": "Deze sweater biedt comfort en subtiliteit, geïnspireerd door de behoedzame en imiterende aard van het Penseelaapje.",
+    "description": "Het Penseelaapje is een levendig en behendig dier dat bekendstaat om zijn nieuwsgierige en eigenzinnige gedrag. Het is voorzichtig en waakzaam, maar tegelijk zorgzaam binnen zijn groep. Met zijn speelsheid en imiterend vermogen symboliseert het Penseelaapje alertheid, zorgzaamheid en de kracht van observatie.",
     "processed": true
   }
 }
